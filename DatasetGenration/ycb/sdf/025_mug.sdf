@@ -1,0 +1,96 @@
+<sdf xmlns:drake="drake.mit.edu" version="1.7">
+  <model name="025_mug">
+    <link name="025_mug_body_link">
+      <pose>0 0 0 0 0 0</pose>
+      <inertial>
+        <mass>1.7716E+00</mass>
+        <inertia>
+          <ixx>2.2563E-03</ixx>
+          <ixy>0.0000E+00</ixy>
+          <ixz>0.0000E+00</ixz>
+          <iyy>2.9962E-03</iyy>
+          <iyz>0.0000E+00</iyz>
+          <izz>3.3008E-03</izz>
+        </inertia>
+      </inertial>
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>package://drake/manipulation/models/ycb/meshes/025_mug.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="box_collision">
+        <geometry>
+          <box>
+            <size>0.116984 0.093131 0.081303</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="point_collision_1">
+        <pose>0.058492  0.0465655 0.0406515 0 0 0</pose>
+        <geometry>
+          <sphere>
+            <radius>1e-7</radius>
+          </sphere>
+        </geometry>
+      </collision>
+      <collision name="point_collision_2">
+        <pose> 0.058492   0.0465655 -0.0406515 0 0 0</pose>
+        <geometry>
+          <sphere>
+            <radius>1e-7</radius>
+          </sphere>
+        </geometry>
+      </collision>
+      <collision name="point_collision_3">
+        <pose> 0.058492  -0.0465655  0.0406515 0 0 0</pose>
+        <geometry>
+          <sphere>
+            <radius>1e-7</radius>
+          </sphere>
+        </geometry>
+      </collision>
+      <collision name="point_collision_4">
+        <pose> 0.058492  -0.0465655 -0.0406515 0 0 0</pose>
+        <geometry>
+          <sphere>
+            <radius>1e-7</radius>
+          </sphere>
+        </geometry>
+      </collision>
+      <collision name="point_collision_5">
+        <pose>-0.058492   0.0465655  0.0406515 0 0 0</pose>
+        <geometry>
+          <sphere>
+            <radius>1e-7</radius>
+          </sphere>
+        </geometry>
+      </collision>
+      <collision name="point_collision_6">
+        <pose>-0.058492   0.0465655 -0.0406515 0 0 0</pose>
+        <geometry>
+          <sphere>
+            <radius>1e-7</radius>
+          </sphere>
+        </geometry>
+      </collision>
+      <collision name="point_collision_7">
+        <pose>-0.058492  -0.0465655  0.0406515 0 0 0</pose>
+        <geometry>
+          <sphere>
+            <radius>1e-7</radius>
+          </sphere>
+        </geometry>
+      </collision>
+      <collision name="point_collision_8">
+        <pose>-0.058492  -0.0465655 -0.0406515 0 0 0</pose>
+        <geometry>
+          <sphere>
+            <radius>1e-7</radius>
+          </sphere>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+</sdf>

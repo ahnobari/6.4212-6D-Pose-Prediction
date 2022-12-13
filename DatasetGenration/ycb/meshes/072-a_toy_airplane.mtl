@@ -1,0 +1,4 @@
+newmtl material_0
+# shader_type beckmann
+map_Kd 072-a_toy_airplane.png
+

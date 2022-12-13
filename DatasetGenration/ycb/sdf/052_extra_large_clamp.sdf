@@ -1,0 +1,96 @@
+<sdf xmlns:drake="drake.mit.edu" version="1.7">
+  <model name="052_extra_large_clamp">
+    <link name="052_extra_large_clamp_body_link">
+      <pose>0 0 0 0 0 0</pose>
+      <inertial>
+        <mass>2.5062E+00</mass>
+        <inertia>
+          <ixx>5.9163E-03</ixx>
+          <ixy>0.0000E+00</ixy>
+          <ixz>0.0000E+00</ixz>
+          <iyy>9.4818E-03</iyy>
+          <iyz>0.0000E+00</iyz>
+          <izz>1.4847E-02</izz>
+        </inertia>
+      </inertial>
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>package://drake/manipulation/models/ycb/meshes/052_extra_large_clamp.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="box_collision">
+        <geometry>
+          <box>
+            <size>0.209954 0.164344 0.036317</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="point_collision_1">
+        <pose>0.104977  0.082172  0.0181585 0 0 0</pose>
+        <geometry>
+          <sphere>
+            <radius>1e-7</radius>
+          </sphere>
+        </geometry>
+      </collision>
+      <collision name="point_collision_2">
+        <pose> 0.104977   0.082172  -0.0181585 0 0 0</pose>
+        <geometry>
+          <sphere>
+            <radius>1e-7</radius>
+          </sphere>
+        </geometry>
+      </collision>
+      <collision name="point_collision_3">
+        <pose> 0.104977  -0.082172   0.0181585 0 0 0</pose>
+        <geometry>
+          <sphere>
+            <radius>1e-7</radius>
+          </sphere>
+        </geometry>
+      </collision>
+      <collision name="point_collision_4">
+        <pose> 0.104977  -0.082172  -0.0181585 0 0 0</pose>
+        <geometry>
+          <sphere>
+            <radius>1e-7</radius>
+          </sphere>
+        </geometry>
+      </collision>
+      <collision name="point_collision_5">
+        <pose>-0.104977   0.082172   0.0181585 0 0 0</pose>
+        <geometry>
+          <sphere>
+            <radius>1e-7</radius>
+          </sphere>
+        </geometry>
+      </collision>
+      <collision name="point_collision_6">
+        <pose>-0.104977   0.082172  -0.0181585 0 0 0</pose>
+        <geometry>
+          <sphere>
+            <radius>1e-7</radius>
+          </sphere>
+        </geometry>
+      </collision>
+      <collision name="point_collision_7">
+        <pose>-0.104977  -0.082172   0.0181585 0 0 0</pose>
+        <geometry>
+          <sphere>
+            <radius>1e-7</radius>
+          </sphere>
+        </geometry>
+      </collision>
+      <collision name="point_collision_8">
+        <pose>-0.104977  -0.082172  -0.0181585 0 0 0</pose>
+        <geometry>
+          <sphere>
+            <radius>1e-7</radius>
+          </sphere>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+</sdf>

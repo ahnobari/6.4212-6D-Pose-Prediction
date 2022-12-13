@@ -1,0 +1,4 @@
+newmtl material_0
+# shader_type beckmann
+map_Kd 071_nine_hole_peg_test.png
+
