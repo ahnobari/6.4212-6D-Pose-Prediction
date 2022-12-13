@@ -5,14 +5,15 @@ Please download the preprocessed dataset files and place them in the Models fold
 
 
 Dependencies:
-	-Pytorch
-	-Pydrake
-	-numpy
-	-trimesh
-	-open3d
-	-yaml
-	-opencv
-	-tqdm
-	-PIL
-	-torchvision
-	-chamferdist
+<ul>
+<li>Pytorch</li>
+<li>Pydrake</li>
+<li>numpy</li>
+<li>trimesh</li>
+<li>open3d</li>
+<li>yaml</li>
+<li>opencv</li>
+<li>tqdm</li>
+<li>PIL</li>
+<li>torchvision</li>
+<li>chamferdist</li>
